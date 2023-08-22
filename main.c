@@ -62,7 +62,7 @@ char *categories[] = {" 1 - user commands ",
                       "exit"};
 int cat_len = sizeof(categories) / sizeof(categories[0]);
 char *pages[] = {"man1", "man2", "man3", "man4", "man5", "man7", "man8"};
-int pages_len = 8;
+int pages_len = 7;
 
 // Helper functions
 bool isdir(const char *name) {

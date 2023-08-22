@@ -1,7 +1,7 @@
 OBJ := main.o
 CC = gcc
 CFLAGS = -c -Wall -std=gnu99
-LDFLAGS = -lmenu -lncurses
+LDFLAGS = -lncurses
 PROG = manlib
 
 all: $(OBJ)
